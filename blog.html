@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8a5781a85c.js" crossorigin="anonoymous"></script>
+	<title>Practise Site</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="courses.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Certificates & Online Programs For 2022</h1>
+	</section>
+
+	<!-- Blog Page Content -->
+
+	<section class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="images/certificate.jpg">
+				<h2>Our Certificate & Online Programs For 2022</h2>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatibus voluptas explicabo odio eligendi provident fuga, odit quas officia velit cupiditate error. Officia maiores molestiae explicabo rem, consectetur, culpa recusandae distinctio, odio minima facilis, numquam voluptatum quisquam quam laborum vel.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Tenetur modi, molestias praesentium optio quos ipsa sapiente dolorum, exercitationem expedita vitae qui sint. Ipsa nihil fuga aliquam explicabo molestiae voluptate iusto hic aperiam placeat id voluptates exercitationem, mollitia distinctio alias quos illo aliquid beatae asperiores! Consectetur veniam ex praesentium, nam impedit minus natus voluptatum aut ea vel asperiores reprehenderit eveniet sapiente illum deserunt corporis. Illum eius a, dolor fuga, ullam aliquid nostrum perspiciatis soluta ipsa repellendus pariatur vero saepe dolorum, labore repellat quae earum nesciunt beatae! Delectus molestiae est et. Cumque consequatur dolore veniam quidem mollitia aperiam expedita nisi itaque quibusdam.</p>
+				<br>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aut ratione qui neque voluptate, nemo cumque cupiditate voluptatem quam molestiae eveniet fuga quasi exercitationem ipsum recusandae doloribus eius sed facilis?</p>
+
+				<div class="comment-box">
+					<h3>Leave A Comment</h3>
+					<form class="comment-form">
+						<input type="text" placeholder="Enter Name">
+						<input type="email" placeholder="Enter Email">
+						<textarea rows="5" placeholder="Your Comment"></textarea>
+						<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+					</form>
+				</div>
+			</div>
+			<div class="blog-right">
+				<h3>Post Categories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>28</span>
+				</div>
+				<div>
+					<span>Machine Learning</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>AutoCAD</span>
+					<span>33</span>
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>11</span>
+				</div>
+				<div>
+					<span>Commerce</span>
+					<span>30</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Footer -->
+	<section class="footer" style="background-color: #FFE5B4
+;">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quae, magni impedit quisquam <br>perspiciatis laborum vero rem incidunt eaque cupiditate.</p>
+		<div class="icons">
+			<a href="https://twitter.com/Saksham73461543?t=dg_F6h_5fqF4_---v1KCgQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+			<a href="https://github.com/Saksham-Gupta-30"><i class="fa-brands fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/saksham-gupta-151517203"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+		<p>Made With <i class="fa-solid fa-heart"></i> By SAKSHAM_GUPTA</p>
+	</section>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
